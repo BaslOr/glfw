@@ -7,9 +7,9 @@ project "GLFW"
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
     files {
-        "Hyro/vendor/GLFW/include/GLFW/**.h",
-        "Hyro/vendor/GLFW/src/**.c",
-        "Hyro/vendor/GLFW/src/**.h"
+        "include/GLFW/**.h",
+        "src/**.c",
+        "src/**.h"
     }
 
     includedirs {
