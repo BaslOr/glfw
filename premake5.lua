@@ -7,12 +7,13 @@ project "GLFW"
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
     files {
-        "Engine/vendor/GLFW/include/GLFW/**.h",
-        "Engine/vendor/GLFW/src/**.c"
+        "Hyro/vendor/GLFW/include/GLFW/**.h",
+        "Hyro/vendor/GLFW/src/**.c",
+        "Hyro/vendor/GLFW/src/**.h"
     }
 
     includedirs {
-        "Engine/vendor/GLFW/include"
+        "Hyro/vendor/GLFW/include"
     }
 
     filter "system:windows"
